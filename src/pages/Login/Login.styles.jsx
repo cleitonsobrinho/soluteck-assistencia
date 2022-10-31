@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import logo from '../../assets/images/arcon.png'
 
 
 
@@ -7,14 +8,18 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
-    position: absolute;
+    position: static;
     align-items: center;
-    background-color: blue;
+    background-image: url(${logo});
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
     flex-direction: column;
     justify-content: center;
-
+  
   h1{
     color:red;
     font-family: 'Roboto Serif', serif;
+    color: #0089D1;
   }
 `;

@@ -1,8 +1,6 @@
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Container } from "../Login/Login.styles";
-
 import Button from '@mui/material/Button';
-
 
 
 const Login = () => {
@@ -13,7 +11,7 @@ const Login = () => {
     }
     return (
         <Container>
-            <h1>Bem vindo!</h1>
+            <h1>O que eu posso fazer por você hoje?</h1>
             <Button onClick={handleSignInClick} variant='contained'>Entrar</Button>
         </Container>
 
