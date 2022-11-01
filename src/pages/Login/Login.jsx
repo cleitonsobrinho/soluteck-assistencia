@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Container } from "../Login/Login.styles";
+import { Container } from "../login/Login.styles";
 import Button from '@mui/material/Button';
 
 
