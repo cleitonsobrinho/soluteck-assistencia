@@ -22,4 +22,7 @@ export const NavStyle = styled.nav`
         line-height: 1.6;
         letter-spacing: 0.0075em;
     }
+    @media(max-width: 667px) {
+        display: none;
+      };
 `;
