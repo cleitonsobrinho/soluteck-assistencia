@@ -18,7 +18,6 @@ export const Container = styled.div`
     justify-content: center;
   
   h1{
-    color:red;
     font-family: 'Roboto Serif', serif;
     color: #0089D1;
   }

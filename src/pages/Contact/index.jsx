@@ -1,8 +1,10 @@
-
+import Header from "../../components/Header"
 
 const Contact = () => {
     return (
-        <h1>Página de contato</h1>
+        <div>
+            <Header />
+        </div>
     );
 };
 

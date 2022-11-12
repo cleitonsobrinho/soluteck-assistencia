@@ -13,7 +13,7 @@ export const NavStyle = styled.nav`
        
     }
    li a{
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
         text-decoration:none;
         color: white;
         margin-right:20px;
