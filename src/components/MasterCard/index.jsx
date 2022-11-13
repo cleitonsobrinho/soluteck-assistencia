@@ -21,17 +21,17 @@ const MasterCard = () => {
 
             <div className="iconsContainer">
                 <div>
-                    <AcUnitIcon color="primary" />
+                    <AcUnitIcon color="primary" fontSize='large' />
                     <h3>Ar</h3>
                 </div>
 
                 <div>
-                    <ElectricBoltIcon color="primary" />
+                    <ElectricBoltIcon color="primary" fontSize='large' />
                     <h3>Elétrica</h3>
                 </div>
 
                 <div>
-                    < FireHydrantAltIcon color="primary" />
+                    < FireHydrantAltIcon color="primary" fontSize='large' />
                     <h3>Hidrante</h3>
                 </div>
             </div>
