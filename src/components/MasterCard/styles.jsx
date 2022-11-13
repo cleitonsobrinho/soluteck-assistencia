@@ -3,8 +3,7 @@ import styled from "styled-components";
 
 export const ContainerMaster = styled.div`
      width: 100%;
-     margin: auto;
-     height: 400px;
+     height: 600px;
      position: relative;
 
      .ContainerImageMaster {
@@ -12,9 +11,9 @@ export const ContainerMaster = styled.div`
        height: 600px;
      }
 
-     .ContainerImageMaster img {
-        height: 100%;
-        width: 100%;
+     #cardMaster {
+      height: 100%;
+      width: 100%;
      }
 
      .textContainer{
@@ -35,7 +34,7 @@ export const ContainerMaster = styled.div`
         display: flex;
         gap: 100px;
         position: absolute;
-        top: 90%;
+        top: 70%;
         left: 10%;
         text-align: center;
      }
