@@ -11,12 +11,12 @@ const MasterCard = () => {
     return (
         <ContainerMaster>
 
-            <div className="textContainer">
-                <h1>Solução para sua <br /> <span className="textDecoration">casa e trabalho.</span></h1>
+            <div className="ContainerImageMaster">
+                <img src={CardSala} alt="Card demostrativo" id="cardMaster" />
             </div>
 
-            <div className="ContainerImageMaster">
-                <img src={CardSala} alt="Card demostrativo" />
+            <div className="textContainer">
+                <h1>Solução para sua <br /> <span className="textDecoration">casa e trabalho.</span></h1>
             </div>
 
             <div className="iconsContainer">
@@ -34,8 +34,6 @@ const MasterCard = () => {
                     < FireHydrantAltIcon color="primary" />
                     <h3>Hidrante</h3>
                 </div>
-
-
             </div>
         </ContainerMaster>
     );
