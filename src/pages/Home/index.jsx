@@ -1,6 +1,7 @@
 import About from "../../components/About";
 import Header from "../../components/Header";
 import MasterCard from "../../components/MasterCard";
+import ServicesCards from "../../components/ServicesCards";
 
 import { ContainerHome } from "./styles";
 
@@ -10,6 +11,7 @@ const Home = () => {
             <Header />
             <MasterCard />
             <About />
+            <ServicesCards />
         </ContainerHome>
     )
 }

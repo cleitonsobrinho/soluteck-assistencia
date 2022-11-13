@@ -32,7 +32,5 @@ export default function Header() {
                 </AppBar>
             </Box>
         </ThemeProvider>
-
-
     );
 }
