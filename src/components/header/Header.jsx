@@ -1,34 +1,13 @@
+import NavBar from "../nav-bar/NavBar";
+import ContainerHeader from "./Header.styles";
 
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import NavBar from '../nav-bar/NavBar';
+const Header = () => {
+  return (
+    <ContainerHeader>
+      <h1>Soluteck</h1>
+      <NavBar />
+    </ContainerHeader>
+  );
+};
 
-
-
-export default function Header() {
-    return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
-                <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Energiar
-                    </Typography>
-                    <NavBar />
-                </Toolbar>
-            </AppBar>
-        </Box>
-    );
-}
+export default Header;
