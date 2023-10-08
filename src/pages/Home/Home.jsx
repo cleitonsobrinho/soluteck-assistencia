@@ -1,4 +1,6 @@
+import Carousel from "../../components/carousel/carousel";
 import Description from "../../components/description/description";
+import Gallery from "../../components/gallery/gallery";
 import Header from "../../components/header/Header";
 import SectionSlides from "../../components/section/section";
 import Service from "../../components/service/service";
@@ -11,6 +13,8 @@ const Home = () => {
       <SectionSlides />
       <Description />
       <Service />
+      <Gallery />
+      <Carousel />
     </ContainerHome>
   );
 };
