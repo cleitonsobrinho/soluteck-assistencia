@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ContainerService = styled.div`
   width: 100%;
-  height: 900px;
+  height: 800px;
   background-color: #1f1f1f;
 
   h1 {
@@ -15,7 +15,7 @@ const ContainerService = styled.div`
 
   .service-section {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
   }
 
@@ -28,7 +28,7 @@ const ContainerService = styled.div`
   img {
     width: 100%;
     height: 100%;
-    border-radius: 50px;
+    border-radius: 30px;
   }
 
   button {
