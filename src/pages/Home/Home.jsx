@@ -1,11 +1,12 @@
 import AboutSoluteck from "../../components/about-soluteck/about-soluteck";
 import Carousel from "../../components/carousel/carousel";
-import ContactSoluteck from "../../components/localizaction-soluteck/localization-soluteck";
 import Description from "../../components/description/description";
 import Gallery from "../../components/gallery/gallery";
 import Header from "../../components/header/Header";
 import SectionSlides from "../../components/section/section";
 import Service from "../../components/service/service";
+import SoluteckLocation from "../../components/soluteck-location-soluteck/soluteck-location";
+
 import { ContainerHome } from "./Home.styles";
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
       <Gallery />
       <Carousel />
       <AboutSoluteck />
-      <ContactSoluteck />
+      <SoluteckLocation />
     </ContainerHome>
   );
 };
