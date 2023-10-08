@@ -1,4 +1,6 @@
+import AboutSoluteck from "../../components/about-soluteck/about-soluteck";
 import Carousel from "../../components/carousel/carousel";
+import ContactSoluteck from "../../components/localizaction-soluteck/localization-soluteck";
 import Description from "../../components/description/description";
 import Gallery from "../../components/gallery/gallery";
 import Header from "../../components/header/Header";
@@ -15,6 +17,8 @@ const Home = () => {
       <Service />
       <Gallery />
       <Carousel />
+      <AboutSoluteck />
+      <ContactSoluteck />
     </ContainerHome>
   );
 };
