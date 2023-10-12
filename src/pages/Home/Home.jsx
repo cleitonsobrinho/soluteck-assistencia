@@ -1,6 +1,7 @@
 import AboutSoluteck from "../../components/about-soluteck/about-soluteck";
 import Carousel from "../../components/carousel/carousel";
 import Description from "../../components/description/description";
+import FormContact from "../../components/form-contact/form-contact";
 import Gallery from "../../components/gallery/gallery";
 import Header from "../../components/header/Header";
 import SectionSlides from "../../components/section/section";
@@ -20,6 +21,7 @@ const Home = () => {
       <Carousel />
       <AboutSoluteck />
       <SoluteckLocation />
+      <FormContact />
     </ContainerHome>
   );
 };
