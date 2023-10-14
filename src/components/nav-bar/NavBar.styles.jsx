@@ -5,6 +5,10 @@ export const NavStyle = styled.nav`
   align-items: center;
   gap: 30px;
 
+  @media (max-width: 768px) {
+    display: block;
+  }
+
   button {
     height: 32px;
     width: 150px;
@@ -19,10 +23,18 @@ export const NavStyle = styled.nav`
       color: #008cff;
       cursor: pointer;
     }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
   ul {
     display: flex;
     gap: 20px;
+
+    @media (max-width: 768px) {
+      gap: 10px;
+    }
   }
   li {
     display: flex;
