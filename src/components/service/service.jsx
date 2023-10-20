@@ -44,7 +44,7 @@ const Service = () => {
           <div className="container-text">
             <h2>Compressores Industriais</h2>
             <p>Somos especializados na manutenção e reparo de Compressores.</p>
-            <button>Mais Informações</button>
+            <button className="button-compressor">Mais Informações</button>
           </div>
         </div>
       </div>

@@ -11,20 +11,56 @@ const ContainerForm = styled.form`
   width: 100%;
   height: 700px;
 
+  @media (max-width: 776px) {
+    display: block;
+    height: 900px;
+    margin-top: 0;
+  }
+
   .inform {
     width: 600px;
+
+    @media (max-width: 776px) {
+      width: 100;
+    }
   }
 
   .box-text {
     width: 600px;
+
+    @media (max-width: 776px) {
+      width: 100%;
+    }
+
+    h2 {
+      @media (max-width: 776px) {
+        text-align: center;
+      }
+    }
+
+    p {
+      @media (max-width: 776px) {
+        text-indent: 20px;
+      }
+    }
   }
 
   .box {
     width: 100%;
+
+    p {
+      @media (max-width: 776px) {
+        margin: 0px;
+      }
+    }
   }
 
   .Containewr-box {
     display: flex;
+
+    @media (max-width: 776px) {
+      display: block;
+    }
   }
 
   .container-input {
@@ -37,6 +73,10 @@ const ContainerForm = styled.form`
     color: #ffffff;
     border: 0px;
     font-size: 18px;
+
+    @media (max-width: 776px) {
+      width: 60%;
+    }
   }
 
   .container-pressInput {
@@ -70,6 +110,10 @@ const ContainerForm = styled.form`
     border: 0px;
     text-align: center;
     font-size: 18px;
+
+    @media (max-width: 776px) {
+      width: 60%;
+    }
   }
 `;
 

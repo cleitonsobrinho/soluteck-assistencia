@@ -6,6 +6,12 @@ const ContainerCorousel = styled.div`
   align-content: center;
   position: relative;
   background-color: #1f1f1f;
+
+  @media (max-width: 776px) {
+    width: 100%;
+    height: 400px;
+  }
+
   .swiper {
     width: 100%;
     height: 100%;
@@ -23,6 +29,11 @@ const ContainerCorousel = styled.div`
     position: relative;
     left: 200px;
     align-items: center;
+
+    @media (max-width: 776px) {
+      position: relative;
+      left: 10px;
+    }
   }
 
   .swiper-slide img {
@@ -34,11 +45,19 @@ const ContainerCorousel = styled.div`
 
   .box-carousel {
     width: 700px;
-  }
 
-  .box-carousel p {
-    text-align: start;
-    font-size: 25px;
+    @media (max-width: 776px) {
+      width: 100%;
+    }
+
+    p {
+      text-align: start;
+      font-size: 25px;
+
+      @media (max-width: 776px) {
+        font-size: 17px;
+      }
+    }
   }
 `;
 
